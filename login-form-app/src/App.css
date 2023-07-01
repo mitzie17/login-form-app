@@ -1,0 +1,47 @@
+h3 {
+  background-color: lightslategray;
+}
+
+.loginDiv {
+  text-align: center;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+
+input, button {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+nav {
+  width: 100vw;
+  background-color: lightblue;
+  color: black;
+  font-size: 20px;
+  padding: 1px
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+nav ul li:hover {
+  color: blue;
+}
+
+section {
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  background-color: lightslategray;
+  padding: 1em;
+}
